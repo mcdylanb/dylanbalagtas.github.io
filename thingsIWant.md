@@ -15,3 +15,5 @@
 - create a design
 - make it mobile responsive
 
+## Some inpirations
+- https://yuto-takahashi.com/detail/nw
