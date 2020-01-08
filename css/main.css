@@ -1,12 +1,13 @@
 * {
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
 	margin: 0 ;
 	padding: 0;
+	background:black;
 }
 nav {
 	width: 100%;
 	height: 10vh;
-	background: white;
+	background: black;
 	/*border: 1px solid green;*/
 	justify-content: space-around;
 	filter: drop-shadow(-10px -10px 2px black);
@@ -24,6 +25,7 @@ nav ul{
 nav ul li {
 	margin: auto 5%;
 	list-style: none;
+	color: white;
 	/*border: 1px solid red;*/
 
 }
@@ -34,16 +36,39 @@ nav ul li {
 }
 
 #welcome {
-	background: url(../assets/osman-rana-h8ZvH1Nf7Bk-unsplash.jpg);
-	height: 100vh;
-	width: auto;
-	background-repeat: no-repeat;
-	background-size: cover;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    align-content: center;
 }
 
 #welcome h1 {
+	font-size: calc(120px + (220 - 120) * ((100vw - 300px) / (1920 - 300)));
+    line-height: calc(120px + (180 - 120) * ((100vw - 300px) / (1920 - 300)));
+    font-family: 'GTWalsheim', sans-serif;	
 	color: white;
-	font-size: 12vw;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align:center;
+	z-index: 2;
+
+}
+
+.main-image {
+	margin-top: -74px;
+	overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+
+}
+
+.main-image img{
+	width: 50vw;
+
 }

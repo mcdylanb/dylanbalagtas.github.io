@@ -26,6 +26,7 @@
 	- minimum colors making it appealing
 - https://limnia.com/
 	- animations are in minimum : love it	
+- https://www.wvth.nl/
 
 ## Fonts used
 - UnifrakturMaguntia
