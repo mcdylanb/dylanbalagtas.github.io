@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: DyJo
+subtitle: 'testing for subtitle'
+description: 'yes ans do and yes'
 keywords:
-author: John Doe
+author:  Dylan Balagtas
 language: en
-timezone: ''
+timezone: 'PST'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: clean
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
